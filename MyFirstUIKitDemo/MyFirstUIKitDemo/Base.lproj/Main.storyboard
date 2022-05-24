@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFirstUIKitDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Fvr-3U-IJq">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="先进企业协作与管理平台" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2S-lo-D1r">
+                                <rect key="frame" x="105.33333333333333" y="252.33333333333334" width="179.66666666666669" height="19.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="168-n6-ixa">
+                                <rect key="frame" x="114.66666666666669" y="291.66666666666669" width="161" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="5u3-mo-dzJ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="FaceBook登录">
+                                    <backgroundConfiguration key="background" image="FB" strokeWidth="0.0" strokeOutset="10"/>
+                                    <directionalEdgeInsets key="contentInsets" top="10" leading="15" bottom="10" trailing="30"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4n9-bv-p7x">
+                                <rect key="frame" x="114.66666666666669" y="338.66666666666669" width="161" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="gSZ-HC-zp4"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Google登录">
+                                    <backgroundConfiguration key="background" image="Google"/>
+                                    <directionalEdgeInsets key="contentInsets" top="10" leading="15" bottom="10" trailing="30"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8i-Br-A58">
+                                <rect key="frame" x="114.66666666666669" y="385.66666666666669" width="161" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="cDr-Mk-Fcf"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="邮箱登录">
+                                    <backgroundConfiguration key="background" image="Email"/>
+                                    <directionalEdgeInsets key="contentInsets" top="10" leading="15" bottom="10" trailing="30"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="bottomRight" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKM-SZ-gaU">
+                                <rect key="frame" x="100" y="169" width="94" height="84"/>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="lark" title="" imagePadding="0.0">
+                                    <backgroundConfiguration key="background"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="飞书" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22t-1v-tbb">
+                                <rect key="frame" x="194" y="194" width="64.666666666666686" height="38.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="J2S-lo-D1r" firstAttribute="top" secondItem="22t-1v-tbb" secondAttribute="bottom" constant="20" id="1M9-Fl-k8T"/>
+                            <constraint firstItem="Fvr-3U-IJq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6yg-5F-WOh"/>
+                            <constraint firstItem="22t-1v-tbb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="9y5-vK-eoL"/>
+                            <constraint firstItem="rKM-SZ-gaU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="SJv-3N-TJ4"/>
+                            <constraint firstItem="4n9-bv-p7x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TUv-na-BO1"/>
+                            <constraint firstAttribute="bottom" secondItem="Fvr-3U-IJq" secondAttribute="bottom" id="Ua1-fv-JgA"/>
+                            <constraint firstItem="4n9-bv-p7x" firstAttribute="top" secondItem="168-n6-ixa" secondAttribute="bottom" constant="10" id="ZDM-F6-hJx"/>
+                            <constraint firstItem="168-n6-ixa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZZv-CK-Yl6"/>
+                            <constraint firstItem="22t-1v-tbb" firstAttribute="leading" secondItem="rKM-SZ-gaU" secondAttribute="trailing" id="afK-Od-RV8"/>
+                            <constraint firstItem="168-n6-ixa" firstAttribute="top" secondItem="J2S-lo-D1r" secondAttribute="bottom" constant="20" id="d8N-d9-n7S"/>
+                            <constraint firstItem="X8i-Br-A58" firstAttribute="top" secondItem="4n9-bv-p7x" secondAttribute="bottom" constant="10" id="dMr-y2-ohB"/>
+                            <constraint firstItem="X8i-Br-A58" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m2H-gR-ZU7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fvr-3U-IJq" secondAttribute="trailing" id="nGG-7h-Cgd"/>
+                            <constraint firstItem="rKM-SZ-gaU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="raZ-QF-QvR"/>
+                            <constraint firstItem="J2S-lo-D1r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s7S-sg-Q99"/>
+                            <constraint firstItem="Fvr-3U-IJq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wuR-ZO-PgO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="86.018957345971558"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="414" height="896"/>
+        <image name="Email" width="285" height="69"/>
+        <image name="FB" width="285" height="69"/>
+        <image name="Google" width="285" height="69"/>
+        <image name="lark" width="70" height="70"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

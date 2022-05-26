@@ -14,5 +14,5 @@
 
 ## 0526
 1. 学习bitrase工具的使用，当main分支推送时，bitrise会自动运行模拟器检查代码，并推送检查结果邮件
-<img width="714" alt="image" src="https://user-images.githubusercontent.com/105849938/170476071-b731b0bc-0070-46d9-82de-a58b71f112a7.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/170476071-b731b0bc-0070-46d9-82de-a58b71f112a7.png">
 

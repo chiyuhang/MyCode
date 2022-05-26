@@ -9,8 +9,8 @@
 <img src="https://user-images.githubusercontent.com/105849938/170464099-cb4236a7-3419-4151-a049-2b23f60f3880.png" width="200">
 
 ## 0524
-学习IBAction Function、IBOutlet Properties，实现mainboard与viewController交互，制作一个卡牌游戏
+1. 学习IBAction Function、IBOutlet Properties，实现mainboard与viewController交互，制作一个卡牌游戏
 <img src="https://user-images.githubusercontent.com/105849938/170464351-70661c27-6bd4-468e-87ce-45635998255e.png" width="200">
 
 ## 0526
-学习bitrase工具的使用
+1. 学习bitrase工具的使用

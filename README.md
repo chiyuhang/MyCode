@@ -16,3 +16,9 @@
 1. 学习bitrase工具的使用，当main分支推送时，bitrise会自动运行模拟器检查代码，并推送检查结果邮件
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/170476071-b731b0bc-0070-46d9-82de-a58b71f112a7.png">
 
+## 0527
+1. 学习访问YouTube API，将JSON结果解析成自定义的Video对象
+2. 安装ProxyMan工具，查看接口访问情况
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/170707497-bf209e42-04db-4b2a-b996-aa041b67176a.png">
+3. 安装sourcetree，在可视化界面查看分支
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/170707653-7e682a48-45c6-46f9-b4b3-cabda82c3e34.png">

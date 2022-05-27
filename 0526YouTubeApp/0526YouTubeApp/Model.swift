@@ -28,7 +28,20 @@ class Model {
                 return
             }
             
-            // 将返回的数据解析道video对象中
+            do {
+                // 将返回的数据解析道video对象中
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                let response = try decoder.decode(Response.self, from: data! )
+                
+                dump(response  )
+            }
+            catch {
+                
+            }
+            
+            
+            
             
         }
         

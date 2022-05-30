@@ -7,13 +7,20 @@
 
 import Foundation
 
+protocol ModelDelegate {
+    func videosFetched(_ videos:[Video])
+}
+
 class Model {
-    func getVideos() {
+    
+    var delegate:ModelDelegate?
+
+    func getVideos() { 
         
         // 创建一个URL对象
         let url = URL(string: Constants.API_URL)
         
-        guard url != nil else{
+        guard url != nil else{ 
             return
         }
         
@@ -34,15 +41,20 @@ class Model {
                 decoder.dateDecodingStrategy = .iso8601
                 let response = try decoder.decode(Response.self, from: data! )
                 
-                dump(response  )
+                if response.items != nil {
+                    // 调用 videosFetched，把数据传给tableview
+                    DispatchQueue.main.sync {
+                        self.delegate?.videosFetched(response.items!)
+                    }
+                    
+                }
+                                
+                dump(response)
             }
             catch {
                 
             }
-            
-            
-            
-            
+
         }
         
         // kick off task

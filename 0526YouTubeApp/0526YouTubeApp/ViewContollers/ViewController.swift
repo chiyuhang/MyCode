@@ -55,13 +55,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // 新建一个cell
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEOCELL_ID, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEOCELL_ID, for: indexPath) as! VideoTableViewCell
         
-        // 为这个cell配置数据
-        let title = videos[indexPath.row].title
+        let video = videos[indexPath.row]
         
-        cell.textLabel?.text = title
-        // 把cell返回
+        cell.setCell(video)
+
         return cell 
         
     }

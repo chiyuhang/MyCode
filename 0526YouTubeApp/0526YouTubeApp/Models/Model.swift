@@ -36,9 +36,12 @@ class Model {
             }
             
             do {
+                
                 // 将返回的数据解析道video对象中
                 let decoder = JSONDecoder()
+                // 设置日期解析格式
                 decoder.dateDecodingStrategy = .iso8601
+                
                 let response = try decoder.decode(Response.self, from: data! )
                 
                 if response.items != nil {

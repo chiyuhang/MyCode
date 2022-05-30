@@ -22,3 +22,8 @@
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/170707497-bf209e42-04db-4b2a-b996-aa041b67176a.png">
 3. 安装sourcetree，在可视化界面查看分支
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/170707653-7e682a48-45c6-46f9-b4b3-cabda82c3e34.png">
+
+## 0530
+1. 在MainBoard中插入TableView，在TableView中插入ImageView、Label展示视频缩略图、标题、时间
+2. 新建CacheManage类，缓存缩略图数据
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/105849938/171037419-8bd5ba9b-e8f3-4d33-8434-3639e12e570d.png">

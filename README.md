@@ -27,3 +27,8 @@
 1. 在MainBoard中插入TableView，在TableView中插入ImageView、Label展示视频缩略图、标题、时间
 2. 新建CacheManage类，缓存缩略图数据
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/105849938/171037419-8bd5ba9b-e8f3-4d33-8434-3639e12e570d.png">
+
+## 5.31
+1. 新建一个DetailViewController，插入WebView展示视频
+2. 通过segue方法，捕捉ViewController中用户点击视频事件，将video传递对象传递并跳转到视频详情页
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/105849938/171139682-16d304bd-db26-4aaf-9476-abea577e6b66.gif">

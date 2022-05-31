@@ -28,6 +28,25 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
     
+    // 当用户点击视频缩略图，发生segue(切换)时会调用这个函数
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // 判断用户真的点击了一个视频
+        guard tableView.indexPathForSelectedRow != nil else {
+            return
+        }
+        
+        // 获取video的引用
+        let selectedVideo = videos[tableView!.indexPathForSelectedRow!.row]
+
+        // 获取DetailViewController 的引用
+        let detailVC = segue.destination as! DetailViewController
+        
+        // 将video赋值给DetailViewController
+        detailVC.video = selectedVideo
+        
+    }
+    
     // Mark: Delegate Methods
     func videosFetched(_ videos: [Video]) {
         

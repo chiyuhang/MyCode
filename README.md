@@ -38,3 +38,6 @@
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/172042964-20b02fb1-0aca-4a6c-95c9-ac8f67f7019f.jpg">
 2. 学习不通过Storyboard创建视图，通过Frame创建一个UIView，并添加到ViewController视图中，展示到界面
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/105849938/172042922-ce34c7d4-726b-4a8a-8f92-8242d8d0c00b.png">
+3. 制作一个温度转换demo，实现用户点击UITextView，拉起数字键哦盘，输入华氏温度，点击背景图隐藏键盘，并将温度转换为摄氏度，保留一位小数展示
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/105849938/172055873-cecdcef1-d192-4b1f-8a0d-db2c173e7396.gif">
+

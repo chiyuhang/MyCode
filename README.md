@@ -32,3 +32,9 @@
 1. 新建一个DetailViewController，插入WebView展示视频
 2. 通过segue方法，捕捉ViewController中用户点击视频事件，将video传递对象传递并跳转到视频详情页
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/105849938/171139682-16d304bd-db26-4aaf-9476-abea577e6b66.gif">
+
+## 6.6
+1. 读《iOS编程(第5版)》学习视图层次结构
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/105849938/172042964-20b02fb1-0aca-4a6c-95c9-ac8f67f7019f.jpg">
+2. 学习不通过Storyboard创建视图，通过Frame创建一个UIView，并添加到ViewController视图中，展示到界面
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/105849938/172042922-ce34c7d4-726b-4a8a-8f92-8242d8d0c00b.png">

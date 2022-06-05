@@ -26,6 +26,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="fahrenHeitFieldEditingChangedWithTextField:" destination="BYZ-38-t0r" eventType="editingChanged" id="GNj-yC-1J0"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MVb-Nx-YpR"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="华氏温度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEX-ew-AR2">

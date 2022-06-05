@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ConversionViewController: UIViewController {
+class ConversionViewController: UIViewController, UITextFieldDelegate {
     
     var numberFormatter: NumberFormatter {
         let nf = NumberFormatter()
@@ -57,5 +57,16 @@ class ConversionViewController: UIViewController {
         } else {
             fahrenHeitValue = nil
         }
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        
+        let existingTextHasDecimalSeparator =  textField.text?.range(of: ".")
+        let replacementTextHasDecimalSeparator = string.range(of: ".")
+        if existingTextHasDecimalSeparator != nil && replacementTextHasDecimalSeparator != nil {
+            // 已经有了小数点，还要再写一个小数点，直接拒绝
+            return false
+        }
+        return true
     }
 }

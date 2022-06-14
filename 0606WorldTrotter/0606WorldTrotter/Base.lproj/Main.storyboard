@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gf1-Sn-cau">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Conversion View Controller-->
+        <!--温度-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ConversionViewController" customModule="_606WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
@@ -74,6 +74,7 @@
                             <outletCollection property="gestureRecognizers" destination="80B-wX-RSi" appends="YES" id="U95-Ch-r1K"/>
                         </connections>
                     </view>
+                    <tabBarItem key="tabBarItem" title="温度" image="ConvertIcon" id="ra1-1D-Xb5"/>
                     <connections>
                         <outlet property="celsiusLabel" destination="YaS-tR-Gu1" id="OBP-xv-NB9"/>
                         <outlet property="textField" destination="xBv-bY-eiV" id="Imn-gn-J5D"/>
@@ -86,10 +87,41 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="71" y="72"/>
+            <point key="canvasLocation" x="-645" y="86"/>
+        </scene>
+        <!--地图-->
+        <scene sceneID="fNe-yi-Lh3">
+            <objects>
+                <viewController id="c7I-J4-Xek" customClass="MapViewController" customModule="_606WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="地图" image="MapIcon" id="iak-yb-cAP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DeS-YH-z9o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909" y="86"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tMG-jf-FNl">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Gf1-Sn-cau" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EoL-DZ-ql5">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="RB6-bx-xrS"/>
+                        <segue destination="c7I-J4-Xek" kind="relationship" relationship="viewControllers" id="yZc-GD-vyo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30i-mT-KT0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105.79710144927537" y="85.714285714285708"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ConvertIcon" width="48.5" height="32.5"/>
+        <image name="MapIcon" width="48.5" height="32.5"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

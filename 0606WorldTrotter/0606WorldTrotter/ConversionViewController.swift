@@ -9,6 +9,11 @@ import UIKit
 
 class ConversionViewController: UIViewController, UITextFieldDelegate {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("viewDidLoad方法被调用")
+    }
+    
     var numberFormatter: NumberFormatter {
         let nf = NumberFormatter()
         nf.numberStyle = .decimal

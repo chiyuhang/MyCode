@@ -33,7 +33,12 @@ class ItemCell: UITableViewCell {
         titleLabel.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(10)
             make.top.equalToSuperview().offset(10)
+            make.centerY.equalToSuperview()
         }
+        
+        var textField = UITextField()
+        textField.beginningOfDocument
+        
     }
     
 }

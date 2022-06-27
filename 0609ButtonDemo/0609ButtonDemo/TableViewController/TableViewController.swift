@@ -15,7 +15,8 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         ListItem("Button", { ButtonViewController() }),
         ListItem("Question", { QuizViewController() }),
         ListItem("Map", { MapViewController() }),
-        ListItem("Card", { CardViewController() })
+        ListItem("Card", { CardViewController() }),
+        ListItem("PickerSectionDemo", { PickerTableViewController() })
     ]
     
     private lazy var titleLabel = UILabel()
@@ -59,11 +60,10 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func setApperance() {
         view.backgroundColor = .white
+        titleLabel.backgroundColor = .white
         titleLabel.text = "应用导航"
         tableView.separatorStyle = .singleLine
         tableView.separatorInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
-        // 更改地图类型
-//        segmentedControl.addTarget(self, action: #selector(mapTypeChanged(_:)), for: .valueChanged)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -79,7 +79,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 40
+        return 50
     }
     
     // 每一个cell显示的内容

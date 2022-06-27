@@ -7,33 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1D91CB28601F8D00096E30 /* PickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D91CA28601F8D00096E30 /* PickerTableViewController.swift */; };
 		2B2460772851984D0010FF69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2460762851984D0010FF69 /* AppDelegate.swift */; };
 		2B2460802851984D0010FF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B24607F2851984D0010FF69 /* Assets.xcassets */; };
 		2B24608B28519C4C0010FF69 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24608A28519C4C0010FF69 /* ButtonViewController.swift */; };
+		2B8AC2EB2860551D004597C1 /* PickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8AC2EA2860551D004597C1 /* PickerCell.swift */; };
+		2B8AC3F8286058CD004597C1 /* MyCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8AC3F7286058CD004597C1 /* MyCheckBox.swift */; };
 		2B9F63F12853284B005F3DA5 /* RootNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F63F02853284B005F3DA5 /* RootNavigationViewController.swift */; };
 		2B9F63F328532C80005F3DA5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F63F228532C80005F3DA5 /* MapViewController.swift */; };
 		2B9F63F62853322F005F3DA5 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F63F52853322F005F3DA5 /* QuizViewController.swift */; };
 		2BCE65C528533EAE00CF8133 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE65C428533EAE00CF8133 /* TableViewController.swift */; };
 		2BCE65C728534A7800CF8133 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE65C628534A7800CF8133 /* ItemCell.swift */; };
 		2BCE66D32855BA0700CF8133 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE66D22855BA0700CF8133 /* CardViewController.swift */; };
-		51529A9AC2641D98E88EDA20 /* Pods_0609ButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6D6F6957B93C20B535759D /* Pods_0609ButtonDemo.framework */; };
+		9423E717B2680BCD89CB49AF /* Pods_0609ButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C321FA3EA01165B26A9D97B1 /* Pods_0609ButtonDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		068E603BDA755447CC0E38CA /* Pods-0609ButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-0609ButtonDemo.release.xcconfig"; path = "Target Support Files/Pods-0609ButtonDemo/Pods-0609ButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2B1D91CA28601F8D00096E30 /* PickerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTableViewController.swift; sourceTree = "<group>"; };
 		2B2460732851984D0010FF69 /* 0609ButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0609ButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2460762851984D0010FF69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B24607F2851984D0010FF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B2460842851984D0010FF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B24608A28519C4C0010FF69 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		2B8AC2EA2860551D004597C1 /* PickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCell.swift; sourceTree = "<group>"; };
+		2B8AC3F7286058CD004597C1 /* MyCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCheckBox.swift; sourceTree = "<group>"; };
 		2B9F63F02853284B005F3DA5 /* RootNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationViewController.swift; sourceTree = "<group>"; };
 		2B9F63F228532C80005F3DA5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2B9F63F52853322F005F3DA5 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		2BCE65C428533EAE00CF8133 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2BCE65C628534A7800CF8133 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		2BCE66D22855BA0700CF8133 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
-		69393BA76EFF14E05A5A56F9 /* Pods-0609ButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-0609ButtonDemo.debug.xcconfig"; path = "Target Support Files/Pods-0609ButtonDemo/Pods-0609ButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		94833BDFE95D39D73ECA7DBD /* Pods-0609ButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-0609ButtonDemo.release.xcconfig"; path = "Target Support Files/Pods-0609ButtonDemo/Pods-0609ButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
-		FA6D6F6957B93C20B535759D /* Pods_0609ButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_0609ButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C321FA3EA01165B26A9D97B1 /* Pods_0609ButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_0609ButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BA6F5F10415C2EC0F49F49 /* Pods-0609ButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-0609ButtonDemo.debug.xcconfig"; path = "Target Support Files/Pods-0609ButtonDemo/Pods-0609ButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51529A9AC2641D98E88EDA20 /* Pods_0609ButtonDemo.framework in Frameworks */,
+				9423E717B2680BCD89CB49AF /* Pods_0609ButtonDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +60,7 @@
 				2B2460752851984D0010FF69 /* 0609ButtonDemo */,
 				2B2460742851984D0010FF69 /* Products */,
 				7575586490FE401603C6A010 /* Pods */,
-				D0486EE486BFB5953E29BD15 /* Frameworks */,
+				89EA780BE746011F2610C040 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +75,7 @@
 		2B2460752851984D0010FF69 /* 0609ButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2B8AC3F6286058B5004597C1 /* MyCheckBox */,
 				2BCE65C328533E9400CF8133 /* TableViewController */,
 				2B9F63F42853320E005F3DA5 /* ViewControllers */,
 				2B2460762851984D0010FF69 /* AppDelegate.swift */,
@@ -76,6 +83,14 @@
 				2B2460842851984D0010FF69 /* Info.plist */,
 			);
 			path = 0609ButtonDemo;
+			sourceTree = "<group>";
+		};
+		2B8AC3F6286058B5004597C1 /* MyCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				2B8AC3F7286058CD004597C1 /* MyCheckBox.swift */,
+			);
+			path = MyCheckBox;
 			sourceTree = "<group>";
 		};
 		2B9F63F42853320E005F3DA5 /* ViewControllers */ = {
@@ -86,6 +101,8 @@
 				2B9F63F228532C80005F3DA5 /* MapViewController.swift */,
 				2B9F63F52853322F005F3DA5 /* QuizViewController.swift */,
 				2BCE66D22855BA0700CF8133 /* CardViewController.swift */,
+				2B1D91CA28601F8D00096E30 /* PickerTableViewController.swift */,
+				2B8AC2EA2860551D004597C1 /* PickerCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -102,16 +119,16 @@
 		7575586490FE401603C6A010 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				69393BA76EFF14E05A5A56F9 /* Pods-0609ButtonDemo.debug.xcconfig */,
-				94833BDFE95D39D73ECA7DBD /* Pods-0609ButtonDemo.release.xcconfig */,
+				C8BA6F5F10415C2EC0F49F49 /* Pods-0609ButtonDemo.debug.xcconfig */,
+				068E603BDA755447CC0E38CA /* Pods-0609ButtonDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D0486EE486BFB5953E29BD15 /* Frameworks */ = {
+		89EA780BE746011F2610C040 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA6D6F6957B93C20B535759D /* Pods_0609ButtonDemo.framework */,
+				C321FA3EA01165B26A9D97B1 /* Pods_0609ButtonDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,11 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B2460872851984D0010FF69 /* Build configuration list for PBXNativeTarget "0609ButtonDemo" */;
 			buildPhases = (
-				A38F47743C76438F3A188DD1 /* [CP] Check Pods Manifest.lock */,
+				76D1D0F1008CD164B22D1E9D /* [CP] Check Pods Manifest.lock */,
 				2B24606F2851984C0010FF69 /* Sources */,
 				2B2460702851984C0010FF69 /* Frameworks */,
 				2B2460712851984C0010FF69 /* Resources */,
-				8391B8E54B692F50686BE318 /* [CP] Embed Pods Frameworks */,
+				3DAFE052795A1187AC351FC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,7 +200,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8391B8E54B692F50686BE318 /* [CP] Embed Pods Frameworks */ = {
+		3DAFE052795A1187AC351FC4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,7 +217,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-0609ButtonDemo/Pods-0609ButtonDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A38F47743C76438F3A188DD1 /* [CP] Check Pods Manifest.lock */ = {
+		76D1D0F1008CD164B22D1E9D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,12 +248,15 @@
 			files = (
 				2BCE66D32855BA0700CF8133 /* CardViewController.swift in Sources */,
 				2B9F63F12853284B005F3DA5 /* RootNavigationViewController.swift in Sources */,
+				2B8AC3F8286058CD004597C1 /* MyCheckBox.swift in Sources */,
+				2B1D91CB28601F8D00096E30 /* PickerTableViewController.swift in Sources */,
 				2BCE65C528533EAE00CF8133 /* TableViewController.swift in Sources */,
 				2B9F63F62853322F005F3DA5 /* QuizViewController.swift in Sources */,
 				2B24608B28519C4C0010FF69 /* ButtonViewController.swift in Sources */,
 				2BCE65C728534A7800CF8133 /* ItemCell.swift in Sources */,
 				2B2460772851984D0010FF69 /* AppDelegate.swift in Sources */,
 				2B9F63F328532C80005F3DA5 /* MapViewController.swift in Sources */,
+				2B8AC2EB2860551D004597C1 /* PickerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +379,7 @@
 		};
 		2B2460882851984D0010FF69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69393BA76EFF14E05A5A56F9 /* Pods-0609ButtonDemo.debug.xcconfig */;
+			baseConfigurationReference = C8BA6F5F10415C2EC0F49F49 /* Pods-0609ButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -387,7 +407,7 @@
 		};
 		2B2460892851984D0010FF69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94833BDFE95D39D73ECA7DBD /* Pods-0609ButtonDemo.release.xcconfig */;
+			baseConfigurationReference = 068E603BDA755447CC0E38CA /* Pods-0609ButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -25,6 +25,7 @@ class ButtonViewController: UIViewController {
     private lazy var whiteColorButton: UIButton = createRoundButton("白色")
     private lazy var redColorButton: UIButton = createRoundButton("红色")
     private lazy var greenColorButton: UIButton = createRoundButton("绿色")
+    private lazy var checkBox = CheckBox(boxType: .single)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,7 @@ class ButtonViewController: UIViewController {
         setApperance()
         
         self.title = "Components"
+        
     }
     
     func createTitleLabel(_ title: String) -> UILabel{
@@ -93,6 +95,7 @@ class ButtonViewController: UIViewController {
         view.addSubview(buttonStyleStackView)
         view.addSubview(styleButton)
         view.addSubview(styleButton1)
+        view.addSubview(checkBox)
     }
     
     // 创建一个StackView，放入三个button
@@ -170,6 +173,12 @@ class ButtonViewController: UIViewController {
             make.width.equalTo(80)
         }
         
+        checkBox.snp.makeConstraints { make in
+            make.height.width.equalTo(20)
+            make.top.equalTo(styleButton1.snp.bottom).offset(30)
+            make.centerX.equalToSuperview()
+        }
+        
     }
     
     // 调整外观
@@ -178,6 +187,9 @@ class ButtonViewController: UIViewController {
         whiteColorButton.addTarget(self, action: #selector(setBackgroundColor(_:)), for: .touchUpInside)
         redColorButton.addTarget(self, action: #selector(setBackgroundColor(_:)), for: .touchUpInside)
         greenColorButton.addTarget(self, action: #selector(setBackgroundColor(_:)), for: .touchUpInside)
+        checkBox.isHidden = false
+        checkBox.isEnabled = true
+        checkBox.isSelected = false
         
         // 取出stackView中的三个button，分别绑定事件
         
@@ -197,8 +209,13 @@ class ButtonViewController: UIViewController {
         roundButton.addTarget(self, action: #selector(setButtonStyle(_:)), for: .touchUpInside)
         
         // 尝试一些button的样式
-        styleButton1.titleEdgeInsets
+        // init(top: CGFloat, left: CGFloat, bottom: CGFloat, right: CGFloat)
+        styleButton1.tintColor = .systemOrange
         
+    }
+    
+    func tapCheckBox(check: CheckBox) {
+        print("CheckBox 被点击了")
     }
     
 }

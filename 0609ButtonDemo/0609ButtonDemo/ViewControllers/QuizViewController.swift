@@ -40,10 +40,10 @@ class QuizViewController: UIViewController {
             make.centerX.equalToSuperview()
         }
         
-        nextButton.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
-            make.width.equalTo(80)
-            make.top.equalTo(questionLabel.snp.bottom).offset(40)
+        nextButton.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.width.equalTo(80)
+            $0.top.equalTo(questionLabel.snp.bottom).offset(40)
         }
         
         answerLabel.snp.makeConstraints { make in
